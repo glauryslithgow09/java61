@@ -1,0 +1,60 @@
+<!--<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Body</title>
+    <meta charset="UTF-8">
+</head>
+
+<body id="Body">
+
+    <script>
+        function $(ele) {
+            return document.getElementById(ele);
+        } {
+
+            document.write('Glaurys Lithgow');
+        }
+
+        function inicio() {
+            $('Body').style.backgroundColor = '#f00';
+        }
+
+        window.onload = inicio;
+    </script>
+
+</body>
+
+</html>-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Glaurys Lithgow</title>
+    <meta charset="UTF-8">
+</head>
+
+<body style="background-color: darkorange;">
+
+    <script>
+        function calcular(x, y, fu) {
+            var resu = fu(x, y);
+            return resu;
+        }
+
+        var n1 = calcular(50, 15, function(n1, n2) {
+            return n1 + n2;
+        });
+
+        document.write(n1 + '<br>');
+
+        var n2 = calcular(50, 15, function(n1, n2) {
+            return n1 + n2
+        });
+
+        document.write(s2 + '<br>');
+    </script>
+
+</body>
+
+</html>
